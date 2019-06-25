@@ -6,19 +6,37 @@
   "scripts": {
     "start:dev": "webpack-dev-server",
     "build": "webpack",
-    "test": "test"
+    "test": "jest"
   },
   "author": "@rasfuranku",
   "license": "ISC",
   "dependencies": {
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/jsdom": "^12.2.3",
+    "@types/react": "^16.8.22",
+    "@types/react-dom": "^16.8.4",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "typescript": "^3.5.2"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@babel/register": "^7.4.4",
+    "@types/jest": "^24.0.15",
+    "@types/react-test-renderer": "^16.8.2",
+    "babel-jest": "^24.8.0",
     "babel-loader": "^8.0.6",
+    "cross-env": "^5.2.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "jest": "^24.8.0",
+    "jsdom": "^15.1.1",
+    "react-test-renderer": "^16.8.6",
+    "ts-jest": "^24.0.2",
+    "ts-loader": "^6.0.4",
     "webpack": "^4.34.0",
     "webpack-cli": "^3.3.4",
     "webpack-dev-server": "^3.7.2"
